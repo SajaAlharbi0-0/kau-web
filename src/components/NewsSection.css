@@ -1,0 +1,89 @@
+/* src/components/NewsSection.css */
+
+.news-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px solid #c8e3d2;
+}
+
+.news-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.news-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.news-tabs a {
+  text-decoration: none;
+  color: #777;
+  font-weight: 500;
+}
+
+.news-tabs a.active {
+  color: #2f6d41;
+  border-bottom: 2px solid #2f6d41;
+}
+
+.cards-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.date-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+}
+
+.date-badge .day {
+  font-size: 1.2rem;
+}
+
+.date-badge .year {
+  font-size: 0.75rem;
+}
+
+.card-title {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  margin: 0;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.all-news {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #2f6d41;
+  text-decoration: none;
+  font-weight: 500;
+}
